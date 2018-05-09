@@ -1,0 +1,7 @@
+#!/usr/bin/wish
+
+wm title . "Tcl/Tk"
+wm geometry . "150x50"
+label .lab -text "Tcl/Tk"
+button .quit -text "Quit" -command { exit 0 }
+pack .lab .quit
